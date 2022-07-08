@@ -10,126 +10,787 @@
       content="Web site created using create-react-app"
     />
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Schoolbell" />
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
     <link rel="stylesheet" href="./index.css">
     <title>Wesley</title>
   </head>
   <body>
-		<div class="blue_background">
-			<div class="container">
-				<navbar class="navbar" style="background-color: red">
-					<h1 >navbar</h1>
-				</navbar>
-				<header class="header">
-				</header>
-				<article class="top_container">
-					<div class="row">
-						<div class="col-md-6 col-lg-3">
-							<div class="card" style="width: 18rem;">
-								<div class="card-header">
-									<span>DIVERSITY</span>
-									<img src="./assets/icons/icons8-arrow-32.png" />
-								</div>
-								<div class="card-body">
-									<div class="card-content">
-										<div class="slide_title">Wesley is here</div>
-										<div class="slidecontainer">
-											<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-										</div>
-										<div class="slide_footer">
-											<span>Low</span>
-											<span>High</span>
-										</div>
-									</div>
-									<img class='card_icon' src="./assets/icons/icons8-thumbs-up-48.png" />
-									<div class="card_footer">
-										Wesley's microbiome demonstrates a strong diversity of key bacteria within the gut.
-									</div>
-								</div>
+	<div class="header-section">
+		<div class="container">
+			<navbar class="navbar rounded-pill navbar-light bg-light navbar-expand-lg">
+				<div class="container-fluid">
+					<a href="#" class="navbar-brand">
+						<img src="./assets/icons/logo 1.png" />
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div id="navbarScroll" class="navbar-collapse collapse" aria-expanded="false">
+						<ul class="nav navbar-nav navbar-right ms-auto">
+							<li class="nav-item">
+								<button class="btn-lg nav-cart">
+									<i class="fal fa-cart-shopping"></i>
+									&nbsp;Cart
+								</button>
+							</li>
+							<li class="nav-item">
+								<button class="btn-lg nav-login">
+									<i class="far fa-user"></i>
+									&nbsp;Login
+								</button>
+							</li>
+							<li class="nav-item">
+								<button class="acitvate-test btn rounded-pill btn-lg">Activate Test ID</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</navbar>
+			<header class="header">
+				<h6 class="header-date">
+				Test From May 24, 2022
+				</h6>
+				<h1 class="header-title">
+				Wesley's gut is looking great!
+				</h1>
+				<h6 class="header-description">
+				Let's get into the details of what's going on with Wesley's microphone
+				</h6>
+			</header>
+			<article class="top_container">
+				<div class="row">
+					<div class="col-md-6 col-lg-4 col-xl-3">
+						<div class="card" >
+							<div class="card-header">
+								<span>DIVERSITY</span>
+								<img src="./assets/icons/arrow-right-button.png" />
 							</div>
-						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="card green" style="width: 18rem;">
-								<div class="card-header">
-									<span>KEY BACTERIA</span>
-									<img src="./assets/icons/icons8-arrow-32.png" />
-								</div>
-								<div class="card-body">
-									<div class="card-content">
-										<ul>
-											<li><img width='25px' src="./assets/icons/icons8-check-circle-48.png"/>Sutterella</li>
-											<li><img width='25px' src="./assets/icons/icons8-check-circle-48.png"/>Ruminococcus gnavus</li>
-											<li><img width='25px' src="./assets/icons/icons8-green-circle-48.png"/>Blautia</li>
-										</ul>
+							<div class="card-body">
+								<div class="card-content">
+									<div class="slide_title">Wesley is here</div>
+									<div class="slidecontainer">
+										<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
 									</div>
-									<img class='card_icon' src="./assets/icons/icons8-thumbs-up-48.png" />
-									<div class="card_footer">
-										Wesley's microbiome contains 2 of 3 key bacteria that are crucial for healthy growth and development.
+									<div class="slide_footer">
+										<span>Low</span>
+										<span>High</span>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="card purple white_color" style="width: 18rem;">
-								<div class="card-header">
-									<span>MONITOR</span>
-									<img src="./assets/icons/icons8-arrow-32.png" />
-								</div>
-								<div class="card-body">
-									<div class="card-content">
-										<ul>
-											<li><img width='25px' src="./assets/icons/icons8-purple--16.png"/>Sutterella</li>
-											<li><img width='25px' src="./assets/icons/icons8-purple--16.png"/>Ruminococcus gnavus</li>
-											<li><img width='25px' src="./assets/icons/icons8-purple--16.png"/>Blautia</li>
-										</ul>
-									</div>
-									<img class='card_icon' src="./assets/icons/icons8-thumbs-up-48.png" />
-									<div class="card_footer">
-										Wesley's microbiome contains one disruptive bacteria that requires monitoring. 
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="card" style="width: 18rem;">
-								<div class="card-header">
-									<span>MONITOR</span>
-									<img src="./assets/icons/icons8-arrow-32.png" />
-								</div>
-								<div class="card-body">
-									<div class="card-content">
-										<canvas id="myChart"></canvas>
-										<div class="donut-inner">
-											<p class="percent">75<small>%</small></p>
-											<p class="price">¥ 7,500,000 </p><p>/ ¥ 10,000,000</p>
-										</div>
-									</div>
-									<img class='card_icon' src="./assets/icons/icons8-thumbs-up-48.png" />
-									<div class="card_footer">
-										Wesley's microbiome demonstrates a healthy balance between protective and disruptive bacteria.
-									</div>
+								<img class='card_icon' src="./assets/icons/hand.png" />
+								<!-- <img class='card_icon' src="./assets/icons/icons8-thumbs-up-48.png" /> -->
+								<div class="card_footer">
+									Wesley's microbiome demonstrates a strong diversity of key bacteria within the gut.
 								</div>
 							</div>
 						</div>
 					</div>
-				</article>
+					<div class="col-md-6 col-lg-4 col-xl-3">
+						<div class="card green">
+							<div class="card-header">
+								<span>KEY BACTERIA</span>
+								<img src="./assets/icons/arrow-right-button.png" />
+							</div>
+							<div class="card-body">
+								<div class="card-content">
+									<ul>
+										<li><img width='25px' src="./assets/icons/icons8-check-circle-48.png"/>Sutterella</li>
+										<li><img width='25px' src="./assets/icons/icons8-check-circle-48.png"/>Ruminococcus gnavus</li>
+										<li><img width='25px' src="./assets/icons/icons8-green-circle-48.png"/>Blautia</li>
+									</ul>
+								</div>
+								<img class='card_icon' src="./assets/icons/hand.png" />
+
+								<div class="card_footer">
+									Wesley's microbiome contains 2 of 3 key bacteria that are crucial for healthy growth and development.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 col-xl-3">
+						<div class="card purple white_color">
+							<div class="card-header">
+								<span>MONITOR</span>
+								<img src="./assets/icons/arrow button.png" />
+							</div>
+							<div class="card-body">
+								<div class="card-content">
+									<ul>
+										<li><img width='20px' height='20px' src="./assets/icons/red_ellipse.png"/>Sutterella -- 7.31%</li>
+										<li><img width='20px' height='20px' src="./assets/icons/red_ellipse.png"/>Ruminococcus gnavus -- 6.11%</li>
+										<li><img width='20px' height='20px' src="./assets/icons/red_ellipse.png"/>Blautia -- 5.30%</li>
+									</ul>
+								</div>
+								<img class='card_icon' src="./assets/icons/warning.png"/>
+								<div class="card_footer">
+									Wesley's microbiome contains one disruptive bacteria that requires monitoring. 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 col-xl-3">
+						<div class="card">
+							<div class="card-header">
+								<span>MONITOR</span>
+								<img src="./assets/icons/arrow-right-button.png" />
+							</div>
+							<div class="card-body">
+								<div class="card-content">
+									<canvas id="myChart"></canvas>
+									<div class="donut-inner">
+										<p class="title">Jamie's Gut Score</p>
+									</div>
+								</div>
+								<img class='card_icon' src="./assets/icons/hand.png" />
+								<div class="card_footer">
+									Wesley's microbiome demonstrates a healthy balance between protective and disruptive bacteria.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<ul class="nav nav-tabs " id="myTab" role="tablist" style="display:flex; justify-content: space-between;">
+				<li class="nav-item" role="presentation">
+				  <button class="nav-link active" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="summary" aria-selected="true">Summary</button>
+				</li>
+				<li class="nav-item" role="presentation">
+				  <button class="nav-link nav-lab" id="lab-tab" data-bs-toggle="tab" data-bs-target="#lab" type="button" role="tab" aria-controls="lab" aria-selected="false">Lab Results</button>
+				</li>
+				<li class="nav-item" role="presentation">
+				  <button class="nav-link nav-track" id="Track-tab" data-bs-toggle="tab" data-bs-target="#track" type="button" role="tab" aria-controls="Track" aria-selected="false">Track</button>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+	<div class="context-section">
+		<div class="container">
+		  <article class="recommendations">
+		  </article>
+		  <article class="tabs_container">
+			<!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item" role="presentation">
+				<button class="nav-link active" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="summary" aria-selected="true"
+				style="height:100px">Summary</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+				<button class="nav-link" id="lab-tab" data-bs-toggle="tab" data-bs-target="#lab" type="button" role="tab" aria-controls="lab" aria-selected="false"
+				style="height:70px">Lab Results</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+				<button class="nav-link" id="Track-tab" data-bs-toggle="tab" data-bs-target="#track" type="button" role="tab" aria-controls="Track" aria-selected="false"
+				style="height:70px">Track</button>
+			  </li>
+			</ul> -->
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
+				<p class="summary-title h2">Wesley's bacteria summary</p>
+				<p class="summary-description">This report will guide you through your analyzed results. These results <br> are supported with recommendations created by our team of experts.</p>
+				<div class="card-row row">
+				  <div class="col-md">
+					<div class="card-1 card mx-1">
+					  <div class="card-header bg-transparent">
+						<p class="card-title-1"><small>PROTECTIVE</small></p>
+						<p class="card-title-2 h4">Bifidobacterium</p>
+						<p class="card-title-3"><small><strong>0.77%</strong></small></p>
+							<img class="card-button-go" src="./assets/icons/arrow-right-button.png" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+						
+					  </div>
+					  <div class="card-body">
+						<p class="card-text">Because you indicated Wersley has leaky guty. and bifidobacterium can help reduce leaky gut, and this is a key bacteria that wesley is missing</p>
+					  </div>
+					  <div class="card-footer bg-transparent border-success">
+						<p class="card-button-1"><button type="button">ECZEMA</button></p>
+						<p class="card-button-2"><button type="button">MISSING KEY BACTERIA</button></p>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md">
+					<div class="card-2 card mx-1">
+					  <div class="card-header bg-transparent">
+						<p class="card-title-1"><small>DISRUPTIVE</small></p>
+						<p class="card-title-2 h4">Enterobacteriaceae</p>
+						<p class="card-title-3"><small>12.69%</small></p>
+					  </div>
+					  <div class="card-body">
+						<p class="card-text">The prevaience of Enterobacteriaceae members is associated with diarrhea and gastroenteritis in infants and children.</p>
+					  </div>
+					  <div class="card-footer bg-transparent">
+						<p class="card-button-1"><button type="button" class="btn-clipboard" title="">DIARRHEA</button></p>
+						<p class="card-button-2"><button type="button" class="btn-clipboard" title="">HIGH LEVEL OF DISRUPTIVE</button></p>
+					  </div>
+					  <img class="card-button-go" src="./assets/icons/arrow-right-button.png">
+					</div>
+				  </div>
+				  <div class="col-md">
+					<div class="card-3 card mx-1">
+					  <div class="card-header bg-transparent">
+						<p class="card-title-1"><small>PROTECTIVE</small></p>
+						<p class="card-title-2 h4">Faecalibacterium <br>prausnitzii</p>
+						<p class="card-title-3"><small>5.89%</small></p>
+					  </div>
+					  <div class="card-body">
+						<p class="card-text">Because this bacteria correlates with allergy and it needs your attention</p>
+					  </div>
+					  <div class="card-footer bg-transparent">
+						<p class="card-button-1"><button type="button" class="btn-clipboard" title="">INFLAMMATION</button></p>
+						<p class="card-button-2"><button type="button" class="btn-clipboard" title="">RELEAVANT TO ALLERGY</button></p>
+					  </div>
+					  <img class="card-button-go" src="./assets/icons/arrow-right-button.png">
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="tab-pane fade" id="lab" role="tabpanel" aria-labelledby="lab-tab">
+					<div class="row summary-pan" style="text-align:center">
+						<h1>Bacteria's summary</h1>
+						<div class="margin-top-20">
+							<p>Below is a breakdown of the bacteria present in Jamie's gut. The protective,</p>
+							<p>disruptive, and neutral bateria makes up a majority of the gut microbiome.</p>
+							<p>However, there is a good chunk of unclassified bacteria. Unclassified means</p>
+							<p>we're still working on categorizing those strains of bacteria. Bear with us</p>
+							<p>while we dig through research to find those answers</p>
+						</div>
+					</div>
+				
+					<div class="row summary-pan" style="text-align:center">
+						<h1>List of Bacteria</h1>
+						
+						<div class="margin-top-20">
+						<p>Below is a breakdown of the bacteria present in Jamie's gut. The protective,</p>
+						<p>disruptive, and neutral bateria makes up a majority of the gut microbiome.</p>
+						<p>However, there is a good chunk of unclassified bacteria. Unclassified means</p>
+						<p>we're still working on categorizing those strains of bacteria. Bear with us</p>
+						<p>while we dig through research to find those answers</p>
+						</div>
+					</div>
+				
+					<div class="row">
+						<table class="table">
+						<thead>
+							<tr>
+							<th scope="col">
+								Filter<br>
+							</th>
+							<th scope="col" style="width:20%">
+								Bacteria Name<br>
+							</th>
+							<th scope="col" style="width:20%">
+								Percentage(%)<br>
+							</th>
+							<th scope="col" style="width:15%">
+								Abundance<br>
+							</th>
+							</tr>
+						</thead>
+						<tbody>
+				
+						</tbody>
+						
+						</table>
+				
+						<div class="row bottom-line padding-bottom-10 margin-bottom-10">
+						<div class="col-md-5">
+							<div class="col-md-7">
+							<div class="card" style="border:none">
+								<div class="card-body" style="background-color: #fff;">
+								
+								<div class="checkbox-group">
+									<h5>Bacteria &nbsp<span class="font-size-12">select all</span></h5>
+									<div class="row margin-bottom-10">
+				
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Protective
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Disruptive
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Neutral
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Unknown
+										</label>
+										</div>
+									</div>
+				
+									</div>
+									
+									<a>clear all</a>
+								</div>
+				
+								<div class="checkbox-group">
+									<h5>Associations &nbsp<span class="font-size-12">select all</span></h5>
+									<div class="row margin-bottom-10">
+				
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Eczena
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Disruptive
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Neutral
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Unknown
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Eczena
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Disruptive
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Neutral
+										</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+										<label class="form-check-label" for="flexCheckDisabled">
+											Unknown
+										</label>
+										</div>
+									</div>
+				
+									</div>
+									<a>clear all</a>
+								</div>
+								</div>  
+							</div>
+							</div>
+						</div>
+				
+						<div class="col-md-7">
+							<div class="shadow p-3 mb-2 bg-body rounded" style="display:flex"> 
+							<div style="flex-grow: 0.2" >
+								<img src="./assets/icons/icons-blue.jpg"/>
+								&nbsp&nbspFaecalibaterium prausnitzii &#8212; 
+							</div>
+							<div style="flex-grow:0.6">
+								5.46%
+							</div>
+							<div style="flex-grow:0.2">
+								<img src="./assets/icons/icons-red.jpg"/> High
+							</div>
+							<div>
+								<i class="fa fa-angle-down"></i>
+							</div>
+							</div>
+				
+							<div class="shadow p-3 mb-2 bg-body rounded" style="display:flex"> 
+							<div style="flex-grow: 0.2" >
+								<img src="./assets/icons/icons-blue.jpg"/>
+								&nbsp&nbspFaecalibaterium prausnitzii &#8212; 
+							</div>
+							<div style="flex-grow:0.6">
+								5.46%
+							</div>
+							<div style="flex-grow:0.2">
+								<img src="./assets/icons/icons-red.jpg"/> High
+							</div>
+							<div>
+								<i class="fa fa-angle-down"></i>
+							</div>
+							</div>
+				
+							<div class="shadow p-3 mb-2 bg-body rounded" style="display:flex"> 
+							<div style="flex-grow: 0.2" >
+								<img src="./assets/icons/icons-blue.jpg"/>
+								&nbsp&nbspFaecalibaterium prausnitzii &#8212; 
+							</div>
+							<div style="flex-grow:0.6">
+								5.46%
+							</div>
+							<div style="flex-grow:0.2">
+								<img src="./assets/icons/icons-red.jpg"/> High
+							</div>
+							<div>
+								<i class="fa fa-angle-down"></i>
+							</div>
+							</div>
+							
+							<div class="shadow p-3 mb-2 bg-body rounded" style="display:flex"> 
+							<div style="flex-grow: 0.2" >
+								<img src="./assets/icons/icons-blue.jpg"/>
+								&nbsp&nbspFaecalibaterium prausnitzii &#8212; 
+							</div>
+							<div style="flex-grow:0.6">
+								5.46%
+							</div>
+							<div style="flex-grow:0.2">
+								<img src="./assets/icons/icons-red.jpg"/> High
+							</div>
+							<div>
+								<i class="fa fa-angle-down"></i>
+							</div>
+							</div>
+				
+							<div class="shadow p-3 mb-2 bg-body rounded" style="display:flex"> 
+							<div style="flex-grow: 0.2" >
+								<img src="./assets/icons/icons-blue.jpg"/>
+								&nbsp&nbspFaecalibaterium prausnitzii &#8212; 
+							</div>
+							<div style="flex-grow:0.6">
+								5.46%
+							</div>
+							<div style="flex-grow:0.2">
+								<img src="./assets/icons/icons-red.jpg"/> High
+							</div>
+							<div>
+								<i class="fa fa-angle-down"></i>
+							</div>
+							</div>
+							
+							<div class="shadow p-3 mb-2 bg-body rounded" style="display:flex"> 
+							<div style="flex-grow: 0.2" >
+								<img src="./assets/icons/icons-blue.jpg"/>
+								&nbsp&nbspFaecalibaterium prausnitzii &#8212; 
+							</div>
+							<div style="flex-grow:0.6">
+								5.46%
+							</div>
+							<div style="flex-grow:0.2">
+								<img src="./assets/icons/icons-red.jpg"/> High
+							</div>
+							<div>
+								<i class="fa fa-angle-down"></i>
+							</div>
+							</div>
+				
+							<div style="margin:auto">
+							<center>
+								<button class="btn btn-primary btn-lg disabled bg-custom-green bt-custom" tabindex="-1" role="button" aria-disabled="true">
+								See all
+								</button>
+							</center>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			  <div class="tab-pane fade" id="track" role="tabpanel" aria-labelledby="Track-tab">...</div>
+			</div>
+		  </article>
+		  <article class="recommendations">
+			<p class="recommendations-title h2">Wesley's recommendations</p>
+			<p class="recommendations-description">
+			  <small> Let's get to the most interesting part. We built Wesley's personal <br> recommendations for each indicator based on the results of the <br> microbiome analysis </small>
+			</p>
+			<div class="recommendation border-top border-secondary">
+			  <div class="row justify-content-between">
+				<div class="col-md-4">
+				  <p class="recommendation-title h4">To improve diversity</p>
+				</div>
+				<div class="col-md-8">
+				  <div class="recommendation-method row justify-content-between">
+					<div class="col-md-7" style="padding: 5px 12px;">
+					  <p class="h6">INCREASE APPLE IN VESLEY'S DIET</p>
+					</div>
+					<div class="col-md-4">
+					  <p class="h6" style="float: right; padding-right: 16px; padding-top: 6px;">
+						<img src="./assets/icons/increase-icon.png" style="margin-right: 15px">
+						<small>Bifidobacterium</small>
+					  </p>
+					</div>
+					<div class="col-md-1">
+						<p class="h6" style="float: right;  padding-top: 6px;">
+							<img src="./assets/icons/arrow-down-button.png"/>
+						</p>
+					</div>
+				  </div>
+				  <div class="recommendation-method row justify-content-between">
+					<div class="col-md-7" style="padding: 5px 12px;">
+					  <p class="h6">INCREASE APPLE IN VESLEY'S DIET</p>
+					</div>
+					<div class="col-md-4">
+					  <p class="h6" style="float: right; padding-right: 16px; padding-top: 6px;">
+						<img src="./assets/icons/decrease-icon.png" style="margin-right: 15px">
+						<small>Bifidobacterium</small>
+					  </p>
+					</div>
+					<div class="col-md-1">
+						<p class="h6" style="float: right;  padding-top: 6px;">
+							<img src="./assets/icons/arrow-down-button.png"/>
+						</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="recommendation border-top border-secondary" style="padding-bottom: 42px !important; ">
+			  <div class="row justify-content-between">
+				<div class="col-md-4">
+				  <p class="recommendation-title h4">To improve gut balance</p>
+				</div>
+				<div class="col-md-8">
+				  <div class="recommendation-method row justify-content-between">
+					<div class="col-md-7" style="padding: 5px 12px;">
+					  <p class="h6">BREASTFEED</p>
+					</div>
+					<div class="col-md-4">
+						<p class="h6" style="float: right; padding-right: 16px; padding-top: 6px;">
+							<img src="./assets/icons/increase-icon.png" style="margin-right: 15px">
+							<small>Bifidobacterium</small>
+						</p>
+					</div>
+					<div class="col-md-1">
+						<p class="h6" style="float: right;  padding-top: 6px;">
+							<img src="./assets/icons/arrow-down-button.png"/>
+						</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="recommendation border-top border-secondary">
+			  <div class="row justify-content-between">
+				<div class="col-md-4">
+				  <p class="recommendation-title h4">To improve bacteria that <br> need an attention</p>
+				</div>
+				<div class="col-md-8">
+				  <div class="recommendation-method row justify-content-between">
+					<div class="col-md-7" style="padding: 5px 12px;">
+					  <p class="h6">INCREASE APPLE IN VESLEY'S DIET</p>
+					</div>
+					<div class="col-md-4">
+						<p class="h6" style="float: right; padding-right: 16px; padding-top: 6px;">
+							<img src="./assets/icons/decrease-icon.png" style="margin-right: 15px">
+							<small>Bifidobacterium</small>
+						</p>
+					</div>
+					<div class="col-md-1">
+						<p class="h6" style="float: right;  padding-top: 6px;">
+							<img src="./assets/icons/arrow-down-button.png"/>
+						</p>
+					</div>
+				  </div>
+				  <div class="recommendation-method row justify-content-between">
+					<div class="col-md-7" style="padding: 5px 12px;">
+					  <p class="h6">INCREASE APPLE IN VESLEY'S DIET</p>
+					</div>
+					<div class="col-md-4">
+						<p class="h6" style="float: right; padding-right: 16px; padding-top: 6px;">
+							<img src="./assets/icons/increase-icon.png" style="margin-right: 15px">
+							<small>Bifidobacterium</small>
+						</p>
+					</div>
+					<div class="col-md-1">
+						<p class="h6" style="float: right;  padding-top: 6px;">
+							<img src="./assets/icons/arrow-down-button.png"/>
+						</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </article>
+		  <article class="feedback" >
+			<div class="row">
+				<div class="col-xs-12 col-md-5 description">
+				<h2>
+					Please share your feedback
+				</h2>
+				<p class="description">
+					We really want our report to be useful to parents. Therefore, your response is important to us. There are just 3 simple questions. It spends about 30 seconds
+				</p>
+				</div>
+				<div class="col-xs-12 col-md-7 report">
+				<h6 class="number">Question 1 of 3</h6>
+				<h4 class="question">To what extent are you ready to recommend the report to other parents?</h4>
+				<div class="rating">☆☆☆☆☆</div>
+				</div>
+			</div>
+		  </article>
+		  <article class="subscription">
+				<div class="row">
+					<div class="col-xs-12 col-lg-6 img_container">
+					<img src="assets/images/education.png" alt="Sweet Baby">
+					</div>
+					<div class="col-xs-12 col-lg-6 description">
+						<h2 class="title">
+							Support and education,<br>from start to finish
+						</h2>
+						<p class="description">
+							Every test comes with a detailed report of your baby's results, and every report comes with a detailed plan. Snapi's personalized plans include nutrition recommendations. education and full access to registered dietition support.
+						</p>
+						<div class="buttons">
+							<button class="btn btn-fill rounded-pill">Buy the test kit</button>
+							<button class="btn btn-outline rounded-pill">Subscribe</button>
+						</div>
+					</div>
+				</div>
+		  </article>
+		  <img src="assets/images/splitter.png" alt="" class="inner-wrap footer-splitter">
+		</div>
+	  </div>
+	<!-- Modal -->
+	<div class="custom-modal">
+		<div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog" >
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>         
+				</div>
+				<div class="modal-title">
+				<h5 class="" id="staticBackdropLabel">
+					<a href="#" class="modal-title-prefix btn btn-primary btn-lg disabled bg-custom1" tabindex="-1" role="button" aria-disabled="true" class=""></a>
+					Bifidobacterium &#8212; 63,876% <span class="icon-span"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+				</h5>
+				<h6 class="" id="staticBackdropLabel">
+					<a href="#" class="btn btn-primary btn-lg disabled sub-badge bg-custom1" tabindex="-1" role="button" aria-disabled="true" class="">
+					<span style="text-decoration: line-through">PROTE</span>CTIVE
+					</a>
+					WHAT TO KNOW
+				</h6>      
+				</div>  
+				<div class="modal-body">
+				<div class="body-group">
+					<ul>
+					<li>
+						Bifidobacterium is a genus of beneficial bateria that are among the first to inhabit</br>
+						the gastrointestinal tract. They are seen in higher amounts in exclusively breastfed</br>
+						infants than in infants who have had formula introduced</br>
+					</li>
+
+					<li>
+						Due to their proven clinical efficacy in infants, bifidobacterium is being used as probiotics.
+					</li>
+
+					<li>
+						Bifidobacteria play an important role in the prevention and treatment of</br>
+						pathologies typical of newborns, such as necrotizing enterocolitis, infantile colics,</br>
+						acute diarrhea, and neonatal infections.</br>
+						</li>
+
+						<li>
+						
+						Supplementation of bifidobacterium spp, strains help in the treatment and prevention</br>
+						of other pathologies like allergies, celiac disease, obesity, and neurological and</br>
+						psychiatric diseases in newborns and infants.</br>
+						</li>
+
+						<li>
+						They are known to improve atopic eczema in infants and help gain weight</br>
+						in extremely low birth weight infants.</br>
+						</li>
+					</ul>
+				</div>
+
+				<div class="body-group">
+					<h6>ASSOCIATIONS</h6>
+					<span class="badge bg-custom2 badge-custom">Increases with breastfeeding</span>
+					<span class="badge bg-custom2 badge-custom">Acts as a probiotic</span>
+					<span class="badge bg-custom2 badge-custom">Improves eczema</span>
+					<span class="badge bg-custom2 badge-custom">Improves birth weight</span></br>
+					<span class="badge bg-custom2 badge-custom">Prevents allergies</span>
+					<span class="badge bg-custom2 badge-custom">Prevents and treats cellac disease</span>
+					<span class="badge bg-custom2 badge-custom">Increases with breastfeeding</span>
+
+				</div>
+
+				<div class="body-group">
+					<h6>REFERENCES</h6>
+					<ol>
+					<li>https://westminsterresearch.westminster.ac.uk/...</li>
+					<li>https://link.springer.com/chapter/10.1007/978-3-319...</li>
+					<li>https://www.researchgate.net/profile/shoichiro-taniuchi/</br>publication/237796663_Administration_of_Bifido...</li>
+					</ol>
+				</div>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
 			</div>
 		</div>
-		<div class="container">
-			<article class="tabs_container">
-			</article>
-			<article class="recommendations">
-			</article>
-			<article class="feedback">
-			</article>
-			<article class="subscription">
-			</article>
-			<article class="view_plan">
-			</article>
-			<footer class="footer">
-			</footer>
-    </div>
-		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		</div>
+		<!-- End Modal -->
+	  <div class="footer-section">
+		<div class="container footer-container">
+		  <article class="view-plan">
+			<h2 class="title">
+			  Looking to diversify Jamie's microbiome?<br>
+			  Snapi's got it covered.
+			</h2>
+			<div>
+			  <button class="btn btn-fill rounded-pill view-button">View your plan</button>
+			</div>
+			<div class="questions-wrapper">
+			  <a href="#" class="questions">Still have a questions?</a>
+			  <span class="questions">&rarr;</span>
+			</div>
+		  </article>
+		  <div class="footer-line inner-wrap"></div>
+		  <footer class="footer">
+			<div class="text-muted col-sm-3 brand"><img src="./assets/icons/logo 1.png" /></div>
+			<div class="col-sm-9 right">
+			  <span class="copyright">©2022 SnapiHealth. All rights reserved</span>
+			  <span class="policy">Privicy policy</span>
+			</div>
+		  </footer>
+		</div>
+	  </div>
+	  <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="./index.js"></script>
+
   </body>
 </html>
